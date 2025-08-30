@@ -1,0 +1,101 @@
+comment = "gray"
+constant = "green"
+error = "red"
+hint = "blue"
+info = "green"
+"keyword.control" = "red"
+"keyword.control.exception" = "red"
+"keyword.control.return" = "red"
+"keyword.directive" = "blue"
+"keyword.function" = "red"
+"keyword.repeat" = "red"
+"keyword.storage" = "orange"
+"markup.link.label" = "blue"
+"markup.link.text" = "green"
+"markup.link.url" = "blue"
+special = "blue"
+string = "green"
+tag = "red"
+"ui.background.separator" = "red"
+"ui.linenr" = "gray"
+"ui.text" = "text"
+"ui.virtual.indent-guide" = "gray"
+"ui.virtual.whitespace" = "gray"
+"ui.virtual.wrap" = "gray"
+"ui.window" = "gray"
+"variable.builtin" = "blue"
+"variable.parameter" = "blue"
+warning = "orange"
+
+[diagnostic.underline]
+color = "blue"
+style = "curl"
+
+["diagnostic.error"]
+modifiers = ["bold"]
+
+["diagnostic.error".underline]
+color = "red"
+style = "curl"
+
+["diagnostic.warning"]
+modifiers = ["bold"]
+
+["diagnostic.warning".underline]
+color = "orange"
+style = "curl"
+
+["markup.heading.1"]
+fg = "red"
+modifiers = ["bold"]
+
+["markup.heading.1".underline]
+color = "red"
+style = "double_line"
+
+["markup.heading.2"]
+fg = "red"
+modifiers = ["bold"]
+
+["markup.heading.2".underline]
+color = "red"
+style = "line"
+
+["markup.heading.3"]
+fg = "red"
+modifiers = ["bold"]
+
+["markup.heading.3".underline]
+color = "red"
+style = "dashed"
+
+["markup.heading.4"]
+fg = "red"
+modifiers = ["bold"]
+
+["markup.heading.5"]
+fg = "red"
+modifiers = ["italic"]
+
+["markup.heading.6"]
+fg = "red"
+
+[palette]
+blue = "#558bcf"
+gray = "#a6a39a"
+green = "#689764"
+orange = "#d16f15"
+pink = "#ea577b"
+red = "#ae1932"
+text = "#504e48"
+white = "#e0dfde"
+
+["ui.background"]
+bg = "white"
+
+["ui.selection"]
+bg = "gray"
+
+["ui.virtual.jump-label"]
+bg = "black"
+fg = "white"
