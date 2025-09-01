@@ -2,26 +2,36 @@
   description = "Joseon theme for Helix and VSCode";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, flake-utils }:
+  outputs =
+    { self }:
     {
-      homeManagerModules.default = { config, lib, pkgs, ... }:
+      homeModules.default =
+        {
+          config,
+          lib,
+          pkgs,
+          ...
+        }:
         let
           cfg = config.programs.joseon-theme;
-        in {
+        in
+        {
           options.programs.joseon-theme = {
             enable = lib.mkEnableOption "Joseon theme";
-            
-            helix.enable = lib.mkEnableOption "Helix theme" // { default = cfg.enable; };
-            vscode.enable = lib.mkEnableOption "VSCode theme" // { default = cfg.enable; };
+
+            helix.enable = lib.mkEnableOption "Helix theme" // {
+              default = cfg.enable;
+            };
+            vscode.enable = lib.mkEnableOption "VSCode theme" // {
+              default = cfg.enable;
+            };
           };
 
           config = lib.mkIf cfg.enable {
-            xdg.configFile = lib.mkIf cfg.helix.enable {
-              "helix/themes/joseon.toml".source = "${self}/helix.toml";
+            programs.helix.themes = lib.mkIf cfg.helix.enable {
+              joseon = builtins.fromTOML (builtins.readFile "${self}/helix.toml");
             };
 
             programs.vscode.extensions = lib.mkIf cfg.vscode.enable [
