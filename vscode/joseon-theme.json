@@ -14,6 +14,9 @@
     "sideBar.background": "#e0dfde",
     "statusBar.background": "#a6a39a"
   },
+  "semanticTokenColors": {
+    "parameter": "#558bcf"
+  },
   "tokenColors": [
     {
       "name": "Comment",
@@ -52,16 +55,18 @@
       }
     },
     {
-      "name": "class,function,int,var,etc",
+      "name": "impl,class,function,int,var,etc",
       "scope": [
-        "storage.type"
+        "storage.type",
+        "keyword.other.fn.rust",
+        "keyword.other.impl.rust"
       ],
       "settings": {
         "foreground": "#ae1932"
       }
     },
     {
-      "name": "class,function,int,var,etc",
+      "name": "exception to async",
       "scope": [
         "storage.type.function.async"
       ],
