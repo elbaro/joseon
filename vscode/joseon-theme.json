@@ -1,0 +1,228 @@
+{
+  "name": "Joseon",
+  "type": "light",
+  "colors": {
+    "editor.background": "#e0dfde",
+    "editor.foreground": "#504e48",
+    "editor.lineHighlightBackground": "#a6a39a20",
+    "editor.selectionBackground": "#a6a39a80",
+    "editorLineNumber.foreground": "#a6a39a",
+    "editorIndentGuide.background": "#a6a39a40",
+    "editorWhitespace.foreground": "#a6a39a40",
+    "editorRuler.foreground": "#a6a39a40",
+    "panel.background": "#e0dfde",
+    "sideBar.background": "#e0dfde",
+    "statusBar.background": "#a6a39a"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#a6a39a"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#689764"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": [
+        "constant"
+      ],
+      "settings": {
+        "foreground": "#689764"
+      }
+    },
+    {
+      "name": "Keyword Control",
+      "scope": [
+        "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#ae1932"
+      }
+    },
+    {
+      "name": "class,function,int,var,etc",
+      "scope": [
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#ae1932"
+      }
+    },
+    {
+      "name": "class,function,int,var,etc",
+      "scope": [
+        "storage.type.function.async"
+      ],
+      "settings": {
+        "foreground": "#504e48"
+      }
+    },
+    {
+      "name": "static,final,abstract,etc",
+      "scope": [
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#d16f15"
+      }
+    },
+    {
+      "name": "Keyword Directive",
+      "scope": [
+        "keyword.preprocessor",
+        "meta.preprocessor"
+      ],
+      "settings": {
+        "foreground": "#558bcf"
+      }
+    },
+    {
+      "name": "Variable Built-in",
+      "scope": [
+        "variable.language"
+      ],
+      "settings": {
+        "foreground": "#558bcf"
+      }
+    },
+    {
+      "name": "Variable Parameter",
+      "scope": [
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#558bcf"
+      }
+    },
+    {
+      "name": "Tag",
+      "scope": [
+        "entity.name.tag",
+        "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#ae1932"
+      }
+    },
+    {
+      "name": "Special",
+      "scope": [
+        "punctuation.separator.continuation",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#558bcf"
+      }
+    },
+    {
+      "name": "Markup Link Text",
+      "scope": [
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "#689764"
+      }
+    },
+    {
+      "name": "Markup Link Label and URL",
+      "scope": [
+        "meta.link",
+        "markup.underline.link"
+      ],
+      "settings": {
+        "foreground": "#558bcf"
+      }
+    },
+    {
+      "name": "Markup Heading 1",
+      "scope": [
+        "markup.heading.1",
+        "entity.name.section"
+      ],
+      "settings": {
+        "foreground": "#ae1932",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Heading 2",
+      "scope": [
+        "markup.heading.2"
+      ],
+      "settings": {
+        "foreground": "#ae1932",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Heading 3",
+      "scope": [
+        "markup.heading.3"
+      ],
+      "settings": {
+        "foreground": "#ae1932",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Heading 4",
+      "scope": [
+        "markup.heading.4"
+      ],
+      "settings": {
+        "foreground": "#ae1932",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Heading 5",
+      "scope": [
+        "markup.heading.5"
+      ],
+      "settings": {
+        "foreground": "#ae1932",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup Heading 6",
+      "scope": [
+        "markup.heading.6"
+      ],
+      "settings": {
+        "foreground": "#ae1932"
+      }
+    },
+    {
+      "name": "Error",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#ae1932"
+      }
+    },
+    {
+      "name": "Warning",
+      "scope": [
+        "invalid.deprecated"
+      ],
+      "settings": {
+        "foreground": "#d16f15"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "joseon-theme",
+  "displayName": "Joseon Theme",
+  "description": "A light theme inspired by Korean Joseon dynasty aesthetics",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "joseon",
+    "korean"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Joseon",
+        "uiTheme": "vs",
+        "path": "./joseon-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elbaro/joseon"
+  },
+  "license": "MIT"
+}
