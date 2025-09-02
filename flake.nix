@@ -34,7 +34,7 @@
               joseon = builtins.fromTOML (builtins.readFile "${self}/helix.toml");
             };
 
-            programs.vscode.extensions = lib.mkIf cfg.vscode.enable [
+            programs.vscode.profiles.default.extensions = lib.mkIf cfg.vscode.enable [
               (pkgs.vscode-utils.buildVscodeExtension {
                 name = "joseon-theme";
                 pname = "joseon-theme";
