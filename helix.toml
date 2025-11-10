@@ -1,3 +1,4 @@
+constructor = {modifiers=["bold"]}
 comment = "gray"
 constant = "green"
 error = "red"
@@ -22,6 +23,7 @@ tag = "red"
 "ui.virtual.indent-guide" = "gray"
 "ui.virtual.whitespace" = "gray"
 "ui.virtual.wrap" = "gray"
+"ui.virtual.inlay-hint" = "gray"
 "ui.window" = "gray"
 "variable.builtin" = "blue"
 "variable.parameter" = "blue"
@@ -95,6 +97,7 @@ bg = "white"
 
 ["ui.selection"]
 bg = "gray"
+modifiers = ["dim"]
 
 ["ui.virtual.jump-label"]
 bg = "black"
