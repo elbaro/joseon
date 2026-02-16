@@ -4,6 +4,16 @@ A code highlight theme featuring traditional colors of the Joseon dynasty.
 
 The theme is subject to change.
 
+## Supported Editors
+
+- Helix: `helix.toml`
+- VS Code: `vscode/joseon-theme.json`
+- Zed: `zed/joseon.json`
+
+### Zed Usage
+
+Copy `zed/joseon.json` into your Zed themes directory and select **Joseon Light** in the theme picker.
+
 ## Colors
 
 - Red: 단청빨간색 (Dancheong Red)

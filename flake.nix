@@ -1,5 +1,5 @@
 {
-  description = "Joseon theme for Helix and VSCode";
+  description = "Joseon theme for Helix, VSCode and Zed";
 
   inputs = {
   };
@@ -27,6 +27,9 @@
             vscode.enable = lib.mkEnableOption "VSCode theme" // {
               default = cfg.enable;
             };
+            zed.enable = lib.mkEnableOption "Zed theme" // {
+              default = cfg.enable;
+            };
           };
 
           config = lib.mkIf cfg.enable {
@@ -48,6 +51,10 @@
                 sourceRoot = null;
               })
             ];
+
+            home.file.".config/zed/themes/joseon.json" = lib.mkIf cfg.zed.enable {
+              source = "${self}/zed/joseon.json";
+            };
           };
         };
     };
