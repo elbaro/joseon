@@ -92,11 +92,11 @@
             "color": "#689764"
           },
           "constructor": {
-            "color": "#ae1932",
+            "color": "#504e48",
             "font_weight": 700
           },
           "function": {
-            "color": "#ae1932"
+            "color": "#504e48"
           },
           "keyword": {
             "color": "#ae1932"
@@ -123,7 +123,7 @@
             "color": "#ae1932"
           },
           "type": {
-            "color": "#ae1932"
+            "color": "#504e48"
           },
           "variable": {
             "color": "#504e48"
