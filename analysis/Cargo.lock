@@ -18,6 +18,19 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "320119579fcad9c21884f5c4861d16174d0e06250625266f50fe6898340abefa"
 
 [[package]]
+name = "analysis"
+version = "0.1.0"
+dependencies = [
+ "color",
+ "color-eyre",
+ "contrast",
+ "css-color-parser2",
+ "rgb",
+ "serde",
+ "toml",
+]
+
+[[package]]
 name = "autocfg"
 version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -338,19 +351,6 @@ name = "toml_writer"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fcc842091f2def52017664b53082ecbbeb5c7731092bad69d2c63050401dfd64"
-
-[[package]]
-name = "tool"
-version = "0.1.0"
-dependencies = [
- "color",
- "color-eyre",
- "contrast",
- "css-color-parser2",
- "rgb",
- "serde",
- "toml",
-]
 
 [[package]]
 name = "tracing"
