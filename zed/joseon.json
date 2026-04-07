@@ -22,7 +22,7 @@
         "editor.invisible": "#a6a39a40",
         "editor.wrap_guide": "#a6a39a40",
         "search.match_background": "#d16f1580",
-        "search.active_match_background": "#d16f1540",
+        "search.active_match_background": "#558bcf40",
         "selection": "#a6a39a80",
         "selection.inactive": "#a6a39a40",
         "panel.background": "#e0dfde",
