@@ -165,7 +165,7 @@
           ];
 
           # ESC byte for LESS_TERMCAP (shell-agnostic, raw byte)
-          esc = builtins.fromJSON ''"\\u001b"'';
+          esc = builtins.fromJSON ''"\u001b"'';
           termcap = code: "${esc}[${code}m";
         in
         {
